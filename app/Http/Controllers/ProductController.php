@@ -27,7 +27,7 @@ class ProductController extends Controller
             'name' => $request->input('name'),
             'price' => $request->input('price'),
             'old_price' => $request->input('old_price'),
-            'image' => $imagePath,
+            'image' => $imageName,
 
         ];
 

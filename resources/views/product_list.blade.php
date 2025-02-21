@@ -69,7 +69,6 @@
                 <h3>{{ $product['name'] }}</h3>
                 <p>Giá: {{ number_format($product['price']) }}đ</p>
                 @if (!empty($product['image']))
-                <p>{{ $product['image'] }}</p>
                 <img src="{{ asset('storage/images/' . $product['image']) }}" alt="Hình ảnh sản phẩm" width="150">
                 @else
                 <p>(Không có ảnh)</p>
